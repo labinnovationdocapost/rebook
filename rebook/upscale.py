@@ -5,11 +5,11 @@ import sys
 
 from numpy import newaxis
 
-import binarize
-import training
+import rebook.binarize as binarize
+import rebook.training as training
 
-from algorithm import dominant_char_height
-from training import patches
+from rebook.algorithm import dominant_char_height
+from rebook.training import patches
 
 def upscale(path, data_dir, factor):
     assert factor == 2

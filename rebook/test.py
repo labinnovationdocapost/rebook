@@ -4,8 +4,8 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
-from . import binarize
-from .algorithm import text_contours, dewarp
+from rebook import binarize
+from rebook.algorithm import text_contours, dewarp
 
 inpath = sys.argv[1]
 original = cv2.imread(inpath, cv2.CV_LOAD_IMAGE_GRAYSCALE)

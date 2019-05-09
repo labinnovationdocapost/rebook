@@ -6,7 +6,7 @@ import numpy as np
 from numpy.polynomial import Polynomial as Poly
 from skimage.measure import ransac
 
-from geometry import Crop, Line
+from rebook.geometry import Crop, Line
 
 class Letter(object):
     def __init__(self, label, label_map, stats, centroid):

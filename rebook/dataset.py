@@ -5,8 +5,8 @@ import numpy as np
 import os
 import sys
 
-import algorithm
-import lib
+import rebook.algorithm as algorithm
+import rebook.lib as lib
 
 hi_dir = sys.argv[1]
 in_dir = sys.argv[2]

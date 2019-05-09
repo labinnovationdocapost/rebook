@@ -5,10 +5,10 @@ import numpy as np
 import scipy.spatial
 import sys
 
-import algorithm
-import binarize
-import lib
-from lib import GREEN
+import rebook.algorithm as algorithm
+import rebook.binarize as binarize
+import rebook.lib as lib
+from rebook.lib import GREEN
 
 N_values = np.array([64, 64, 64, 128, 128, 128, 256, 256, 256, 256])
 k_values = np.array([5, 4, 3, 5, 4, 3, 5, 4, 3, 2])

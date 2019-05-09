@@ -3,9 +3,9 @@ import numpy as np
 
 from dewarp import get_AH_lines, correct_geometry, estimate_vanishing, \
     arc_length_points
-from geometry import Line
-import lib
-from lib import RED, GREEN, BLUE
+from rebook.geometry import Line
+import rebook.lib as lib
+from rebook.lib import RED, GREEN, BLUE
 
 def peak_points(l, AH):
     x_min, x_max = l[0][1], l[-1][1] + l[-1][3]

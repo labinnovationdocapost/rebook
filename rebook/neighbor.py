@@ -9,10 +9,10 @@ import os
 import sklearn.decomposition
 from sklearn.externals import joblib
 
-import algorithm
-import binarize
-import lib
-from training import create_mosaic, patches, print_dict
+import rebook.algorithm as algorithm
+import rebook.binarize as binarize
+import rebook.lib as lib
+from rebook.training import create_mosaic, patches, print_dict
 
 def features_lo(lo_res):
     lo_res_hi = cv2.resize(lo_res, (0, 0), None, 2.0, 2.0,

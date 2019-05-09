@@ -6,8 +6,8 @@ from numpy.linalg import norm, solve
 import os
 import sys
 
-import lib
-from training import print_dict, training_data
+import rebook.lib as lib
+from rebook.training import print_dict, training_data
 
 def col_square_norm(A):
     return np.einsum('ij, ij->j', A, A)

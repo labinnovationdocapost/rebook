@@ -13,13 +13,13 @@ from multiprocessing.pool import Pool
 from os.path import join, isfile
 from subprocess import check_call, check_output
 
-import algorithm
-import binarize
-import dewarp
-from crop import crop
-from geometry import Crop
-from lib import debug_imwrite
-import lib
+import rebook.algorithm
+import rebook.binarize
+import rebook.dewarp
+from rebook.crop import crop
+from rebook.geometry import Crop
+from rebook.lib import debug_imwrite
+import rebook.lib as lib
 
 extension = '.png'
 def process_image(original, dpi=None):

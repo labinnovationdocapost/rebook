@@ -8,7 +8,7 @@ import numpy as np
 
 from numpy import newaxis
 
-import lib
+import rebook.lib as lib
 
 # from feature_sign import feature_sign_search
 

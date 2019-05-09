@@ -5,12 +5,12 @@ import numpy as np
 import numpy.polynomial.polynomial as poly
 import sys
 
-import algorithm
+import rebook.algorithm as algorithm
 import inpaint
-import lib
+import rebook.lib as lib
 
-from algorithm import fast_stroke_width
-from lib import mean_std, normalize_u8, clip_u8, bool_to_u8, debug_imwrite
+from rebook.algorithm import fast_stroke_width
+from rebook.lib import mean_std, normalize_u8, clip_u8, bool_to_u8, debug_imwrite
 
 cross33 = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
 rect33 = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))

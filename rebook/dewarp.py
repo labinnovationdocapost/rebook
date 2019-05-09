@@ -14,13 +14,13 @@ from scipy import interpolate
 from scipy.linalg import block_diag
 from skimage.measure import ransac
 
-import algorithm
-import binarize
-import collate
-import crop
-from geometry import Crop
-import lib
-from lib import RED, GREEN, BLUE, draw_circle, draw_line
+import rebook.algorithm as algorithm
+import rebook.binarize as binarize
+import rebook.collate as collate
+import rebook.crop as crop
+from rebook.geometry import Crop
+import rebook.lib as lib
+from rebook.lib import RED, GREEN, BLUE, draw_circle, draw_line
 import newton
 
 # focal length f = 3270.5 pixels

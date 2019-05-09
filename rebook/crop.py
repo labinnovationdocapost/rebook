@@ -3,9 +3,9 @@ from __future__ import division, print_function
 import cv2
 import numpy as np
 
-import algorithm
-import collate
-import lib
+import rebook.algorithm as algorithm
+import rebook.collate as collate
+import rebook.lib as lib
 
 def split_lines(lines, all_lines=None):
     # Maximize horizontal separation
